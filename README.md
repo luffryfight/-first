@@ -1,2 +1,1 @@
-# -first
-it is my first time using this
+dont read me hhhh
