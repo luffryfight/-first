@@ -1,0 +1,18 @@
+Index: TestGit.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>class TestGit{\n\tpublic static void main (String[] args){\n\t\tSystem.out.println(\"hello test 1!\");\n\n\t\tSystem.out.println(\"hello test t1!\");\n\t\t//add sth by t2\n\t}\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/TestGit.java b/TestGit.java
+--- a/TestGit.java	(revision 4263d85b61ee8079aeb22becb178d32470ab5833)
++++ b/TestGit.java	(date 1640077411914)
+@@ -3,6 +3,6 @@
+ 		System.out.println("hello test 1!");
+ 
+ 		System.out.println("hello test t1!");
+-		//add sth by t2
++		//add sth by t1
+ 	}
+ }
